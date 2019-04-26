@@ -98,4 +98,4 @@ for airport in airports:
     else:
         state = "BAD  "
 
-    print icao + ": " + state + " (" + daylight + ", cloud base: " + str(cloud_base) + " / " + str(min_cloud_base) + ", wind: " + str(wind_speed) + "@" + str(wind_dir) + " / " + str(desired_wind_dir) + ") " + metar
+    print icao + ": " + state + " (" + daylight + ", cloud base: " + str(cloud_base) + " / " + str(min_cloud_base) + ", wind: " + str(wind_speed) + "@" + str(wind_dir) + " / " + str(desired_wind_dir) + ", " + metar + ")"
