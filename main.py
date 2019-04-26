@@ -79,13 +79,13 @@ for airport in airports:
     cloud_base = 10000000
     if len(decoded_metar.sky) > 0:
         if decoded_metar.sky[0][1] is not None:
-            cloud_base = decoded_metar.sky[0][1].value()
+            cloud_base = int(decoded_metar.sky[0][1].value())
 
     wind_dir = 0
     if decoded_metar.wind_dir is not None:
-        wind_dir = decoded_metar.wind_dir.value()
+        wind_dir = int(decoded_metar.wind_dir.value())
 
-    wind_speed = decoded_metar.wind_speed.value()
+    wind_speed = int(decoded_metar.wind_speed.value())
 
     if cloud_base >  min_cloud_base and (daylight == "DAY" or daylight == "UNKNOWN"):
         if desired_wind_dir + 360 - 45 < wind_dir + 360 and desired_wind_dir + 360 + 45 > wind_dir + 360:
@@ -98,4 +98,4 @@ for airport in airports:
     else:
         state = "BAD  "
 
-    print icao + ": " + state + " (" + daylight + ", cloud base: " + str(cloud_base) + " / " + str(min_cloud_base) + ", wind: " + str(wind_speed) + "@" + str(wind_dir) + " / " + str(desired_wind_dir) + ")" + metar
+    print icao + ": " + state + " (" + daylight + ", cloud base: " + str(cloud_base) + " / " + str(min_cloud_base) + ", wind: " + str(wind_speed) + "@" + str(wind_dir) + " / " + str(desired_wind_dir) + ") " + metar
