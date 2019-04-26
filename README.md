@@ -29,7 +29,7 @@ EGPG: OK    (DAY, cloud base: 4100.0 / 3000, wind: 14.0@180.0 / 163)
 LFLG: BAD   (DAY, cloud base: 4500.0 / 8000, wind: 10.0@250.0 / 126)
 LHHH: OK    (DAY, cloud base: 10000000 / 3000, wind: 13.0@220.0 / 250)
 ```
-  * **OK:** perfect for ridge soaring
-  * **WEAK:** the wind is from the good destiantion but a bit weak
-  * **SO-SO:** clouds are good but whe wind is from a bad direction, but ok for pattern or thermaling
-  * **BAD:** clouds are low or its night
+  * **OK:** day, clouds are good, wind is perfect for ridge soaring
+  * **WEAK:** day, clouds are good, the wind is from the good destiantion but a bit weak
+  * **SO-SO:** day, clouds are good, the wind is from a bad direction, nice for pattern or thermaling
+  * **BAD:** clouds are low or it's night
