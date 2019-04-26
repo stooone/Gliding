@@ -18,7 +18,7 @@ EGPG;EGPH;3000;163
 LFLG;LFLS;8000;126
 LHHH;LHBP;3000;250
 ```
-**Fromat:** ICAO;Nearest METAR station;minimum cloud base;prefered wind direction
+**Format:** ICAO;Nearest METAR station;minimum cloud base;prefered wind direction
 
 ## Output
 
