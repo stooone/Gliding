@@ -6,6 +6,7 @@ Generates a weather report of my favorite airports for soaring.
 
   * python2
   * ```pip2.7 install metar```
+  * You have to download https://www.aviationweather.gov/docs/metar/stations.txt before running.
 
 ## Input
 
