@@ -2,6 +2,11 @@
 
 Generates a weather report of my favorite airports to soaring.
 
+## Requirements
+
+  * python2
+  * ```pip2.7 install metar```
+
 ## Input
 
 **airports.csv**
