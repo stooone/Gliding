@@ -1,6 +1,6 @@
 # Gliding
 
-Generates a weather report of my favorite airports to soaring.
+Generates a weather report of my favorite airports for soaring.
 
 ## Requirements
 
