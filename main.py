@@ -129,7 +129,7 @@ for airport in airports:
     wind_dir = 0
     if decoded_metar.wind_dir is not None:
         wind_dir = int(decoded_metar.wind_dir.value())
-        if desired_wind_dir + 360 - 45 < wind_dir + 360 and desired_wind_dir + 360 + 45 > wind_dir + 360:
+        if (desired_wind_dir + 360 - 45 < wind_dir + 360 and desired_wind_dir + 360 + 45 > wind_dir + 360) or desired_wind_dir == -1:
             wind_dir_ok = True
 
     wind_speed = int(decoded_metar.wind_speed.value())
