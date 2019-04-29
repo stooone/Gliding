@@ -19,6 +19,8 @@ LHHH;LHBP;3000;250
 ```
 **Format:** airport name;nearest METAR station;minimum cloud base;prefered wind direction
 
+Preferred wind direction -1 means any direction is good.
+
 ## Output
 
 ```
