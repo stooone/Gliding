@@ -125,7 +125,9 @@ for airport in airports:
             cloud_base = int(decoded_metar.sky[0][1].value())
             if cloud_base > min_cloud_base:
                 cloud_base_ok = True
-
+    else:
+        cloud_base_ok = True
+ 
     wind_dir = 0
     if decoded_metar.wind_dir is not None:
         wind_dir = int(decoded_metar.wind_dir.value())
