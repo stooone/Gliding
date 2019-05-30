@@ -91,7 +91,7 @@ def daylight(icao):
         pickle.dump(cache, cache_file)
         cache_file.close()
 
-    if sunrise.hour + sunrise.minute / 60 < now.hour + now.minute / 60 and now.hour + now.minute / 60 < sunset.hour + sunset.minute / 60:
+    if sunrise.hour + float(sunrise.minute) / 60 < now.hour + float(now.minute) / 60 and now.hour + float(now.minute) / 60 < sunset.hour + float(sunset.minute) / 60:
         return True
     else:
         return False
