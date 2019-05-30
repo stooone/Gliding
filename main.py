@@ -155,7 +155,7 @@ for airport in airports:
     if daylight_ok:
         output_string += "day"
     else:
-        output_string += "night/unknown"
+        output_string += "night"
     output_string += ", cloud base: " + str(cloud_base) + " / " + str(min_cloud_base) + ", wind: " + str(wind_speed) + "@" + str(wind_dir) + " / " + str(desired_wind_dir) + ", " + metar + ")"
 
     print output_string
